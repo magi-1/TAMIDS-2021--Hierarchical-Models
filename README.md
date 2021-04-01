@@ -1,1 +1,1 @@
-# TAMIDS 2021 Data Science Competition Submission
+# TAMIDS 2021 Competition
