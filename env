@@ -1,0 +1,7 @@
+source env/bin/activate
+export expense_path = '/content/drive/MyDrive/Data Science/TAMIDS 2021/Competition/Data/FEC_Clean/Operation Expenses.csv'
+export candidate_path = '/content/drive/MyDrive/Data Science/TAMIDS 2021/Competition/Data/FEC_Processed/campain_ID.csv'
+export category_path = '/content/drive/MyDrive/Data Science/TAMIDS 2021/Competition/purpose_categories.json'
+export mapping_path = '/content/drive/MyDrive/Data Science/TAMIDS 2021/Competition/purpose_mapping.json'
+export results_path = '/content/drive/MyDrive/Data Science/TAMIDS 2021/Competition/Data/Given/countypres.csv'
+export demographic_path = '/content/drive/MyDrive/Data Science/TAMIDS 2021/Competition/Data/PollDemo_Processed/demo_clean.csv'
