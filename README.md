@@ -1,1 +1,1 @@
-# TAMIDS-2021--Hierarchical-Models
+# TAMIDS 2021 Data Science Competition Submission
