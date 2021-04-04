@@ -1,0 +1,35 @@
+"""
+_path = '/content/drive/MyDrive/Data Science/TAMIDS 2021/Competition/single_prior_model.pkl'
+with open(_path, 'rb') as input:
+    model_dict = pickle.load(input)
+
+Induv_Model = model_dict['model']
+Induv_Trace = model_dict['trace']
+X = model_dict[ 'X_shared']
+lambdas = model_dict['lambdas']
+"""
+
+#I0, J0, num = 10, 5, 4
+#fig, ax = plt.subplots(num,num, figsize = (15,15))
+#for i in range(I0, I0+ num):
+#  for j in range(J0, J0+num):
+#   sns.kdeplot(Induv_Trace['beta'][:, i,j], ax = ax[i-I0,j-J0], color = 'k', linewidth = 2)
+#    ax[i-I0,j-J0].set_title(f"{states[i]} | {X.columns[j]}", fontsize = 10)
+#    ax[i-I0,j-J0].set_ylabel('')
+#fig.savefig('densityplot_2')
+#plt.show()
+
+#clrs = ['#134be8' for i in range(7)] + ['#d10f0f' for i in range(7)] + ['k' for i in range(10)]
+#I0, col_num, num = 20, 2, 4
+#fig, ax = plt.subplots(num, col_num, figsize = (18,17))
+#for i in range(I0, I0+ num):
+#  for j in range(col_num):
+#    for k in range(len(X.columns)):
+#      ax[i-I0,j].plot(list(range(4500)), Induv_Trace['beta'][:, i+j,k], 
+#                      linewidth = 2, label = X.columns[k], color = clrs[k])
+#    ax[i-I0,j].set_title(f"{states[i+j]}", fontsize = 10)
+#    ax[i-I0,j].set_ylabel('')
+#fig.savefig('traceplot2.png')
+#plt.legend(loc='upper center', bbox_to_anchor=(1.4,3.7),
+#          ncol=1, fancybox=True, shadow=True)
+#plt.show()
