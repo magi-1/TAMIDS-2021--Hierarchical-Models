@@ -4,6 +4,7 @@ Team: Cluster One
 
 [Click to See the Final Report](https://colab.research.google.com/drive/1hGbayKvhIGHC8vurnq371of2EW553b7k?usp=sharing) 
 
-## Comments
+### Model: Hierarchical Bayesian model with a Binomial likelihood parameterized by a logit function and Gaussian prior over state level effects
 
-- (4/1/2021) Note that report linked above is the culmination of all of the notebooks in this repository. These notebooks were primarly used for data cleansing and EDA so don't expect them to be the most readable. Additionally I originally worked within the Google Drive/Colab ecosystem so these files are just copies. 
+![hillary_trump](https://user-images.githubusercontent.com/59240067/115946034-319dde00-a484-11eb-9a06-ee98ae3e0138.png)
+
